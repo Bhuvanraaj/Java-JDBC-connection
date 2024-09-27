@@ -10,7 +10,7 @@ public class AddCustomer implements CommonInterface {
 		PreparedStatement st=con.prepareStatement(Query);
 		st.setInt(1, 0);
 		st.setString(2,"ThenMozhi");
-		st.setString(3, "9442567715");
+		st.setString(3, "9442568715");
 		try {
 		st.executeUpdate();
 		}
